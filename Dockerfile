@@ -8,6 +8,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
   dovecot-imapd \
   dovecot-lmtpd \
   dovecot-mysql \
+  lua-sql-mysql \
   php-cli
 
 CMD ["/usr/sbin/dovecot", "-F"]
