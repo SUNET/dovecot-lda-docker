@@ -11,6 +11,6 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
   dovecot-sieve \
   lua-sql-mysql \
   php-cli \
-  sendmail
+  ssmtp
 
 CMD ["/usr/sbin/dovecot", "-F"]
