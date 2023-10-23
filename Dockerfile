@@ -10,6 +10,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
   dovecot-mysql \
   dovecot-sieve \
   lua-sql-mysql \
-  php-cli
+  php-cli \
+  sendmail
 
 CMD ["/usr/sbin/dovecot", "-F"]
