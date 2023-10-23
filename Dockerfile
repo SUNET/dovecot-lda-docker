@@ -4,10 +4,11 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y \
   dovecot-auth-lua \
-  dovecot-sieve \
   dovecot-imapd \
   dovecot-lmtpd \
+  dovecot-managesieved \
   dovecot-mysql \
+  dovecot-sieve \
   lua-sql-mysql \
   php-cli
 
