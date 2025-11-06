@@ -10,7 +10,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
   dovecot-managesieved \
   dovecot-mysql \
   dovecot-sieve \
-  dovecot-fts-xpian \
+  dovecot-fts-xapian \
   lua-sql-mysql \
   php-cli \
   ssmtp
