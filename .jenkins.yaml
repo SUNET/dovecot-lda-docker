@@ -8,6 +8,6 @@ builders:
   - docker
 docker_name: mail/dovecot
 docker_tags:
-  - SUNET-1
+  - SUNET-2
   - "latest"
 docker_no_cache: true
